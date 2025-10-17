@@ -1,4 +1,6 @@
-import org.DSA.string.ReverseVowels;
+package string;
+
+import gopaljilab.dsa.string.ReverseVowels;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
