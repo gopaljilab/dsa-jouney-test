@@ -1,5 +1,6 @@
-import org.DSA.string.LongestCommonPrefix;
+package string;
 
+import gopaljilab.dsa.string.LongestCommonPrefix;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
