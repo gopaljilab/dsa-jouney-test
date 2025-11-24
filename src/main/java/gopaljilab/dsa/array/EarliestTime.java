@@ -1,7 +1,7 @@
 package gopaljilab.dsa.array;
 
 public class EarliestTime {
-    public static int earliestTime(int[][] tasks) {
+    public int earliestTime(int[][] tasks) {
         int earliestTime = Integer.MAX_VALUE;
         for (int[] task : tasks) {
             int sumOfTime = 0;
