@@ -1,15 +1,44 @@
 package math;
 
-import gopaljilab.dsa.array.MinimumAverage;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import gopaljilab.dsa.math.MirrorDistance;
+import org.junit.jupiter.api.Test;
 
 public class MirrorDistanceTest {
-        public static void main(String[] args) {
-            System.out.println(MinimumAverage.minimumAverage(new int[]{1,2,3,4}));
-            System.out.println(MinimumAverage.minimumAverage(new int[]{7,1,5,3}));
-            System.out.println(MinimumAverage.minimumAverage(new int[]{-10,-5,0,5}));
-            System.out.println(MinimumAverage.minimumAverage(new int[]{4,4,4,4}));
-            System.out.println(MinimumAverage.minimumAverage(new int[]{100000,1,99999,2}));
-            System.out.println(MinimumAverage.minimumAverage(new int[]{8,2}));
-            System.out.println(MinimumAverage.minimumAverage(new int[]{1,2,3}));
-        }
+
+    @Test
+    void testSimpleNumber() {
+        assertEquals(9, MirrorDistance.mirrorDistance(12));
+    }
+
+    @Test
+    void testPalindrome() {
+        assertEquals(0, MirrorDistance.mirrorDistance(121));
+    }
+
+    @Test
+    void testTrailingZero() {
+        assertEquals(99, MirrorDistance.mirrorDistance(120));
+    }
+
+    @Test
+    void testSingleDigit() {
+        assertEquals(0, MirrorDistance.mirrorDistance(7));
+    }
+
+    @Test
+    void testLargeNumber() {
+        assertEquals(530865, MirrorDistance.mirrorDistance(987654));
+    }
+
+    @Test
+    void testZero() {
+        assertEquals(0, MirrorDistance.mirrorDistance(0));
+    }
+
+    @Test
+    void testRepeatingDigits() {
+        assertEquals(999, MirrorDistance.mirrorDistance(1110));
+    }
 }
