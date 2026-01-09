@@ -34,9 +34,4 @@ public class PascalTriangle {
         }
         return triangle;
     }
-
-    public static void main(String[] args) {
-        int numRows = 6;
-        System.out.println("Output : " + generate(numRows));
-    }
 }
