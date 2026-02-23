@@ -25,7 +25,7 @@ public class FindRelativeRanks {
             if (i == 0) result[originalIndex] = "Gold Medal";
             else if (i == 1) result[originalIndex] = "Silver Medal";
             else if (i == 2) result[originalIndex] = "Bronze Medal";
-            else result[originalIndex] = String.valueOf(scoreWithIndex[i][0]);
+            else result[originalIndex] = String.valueOf(i + 1);
         }
         return result;
     }
