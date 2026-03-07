@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-class IntersectionOfArrayTest {
+class InterSectionOfArrayTest {
 
     @Test
     void testNormalIntersection() {
