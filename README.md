@@ -28,10 +28,10 @@ Each program here is written to experiment with different logic approaches, perf
 
 | Difficulty | Tested Problems |
 |-------------|-----------------|
-| Easy        | 150 ✅            |
-| Medium      | 14 ✅            |
-| Hard        | 01 ✅            |
-| **Total**   | 165 ✅            |
+| Easy        | 161 ✅           |
+| Medium      | 21 ✅            |
+| Hard        | 02 ✅            |
+| **Total**   | 184 ✅           |
 
 *(I’ll keep updating this table as I test more DSA solutions.)*
 
