@@ -17,6 +17,7 @@ Each program here is written to experiment with different logic approaches, perf
 
 ## 🛠️ Tech Stack
 
+
 - **Language:** Java ☕
 - **Platform:** [LeetCode](https://leetcode.com/), [GeeksforGeeks](https://www.geeksforgeeks.org/)
 - **Tools:** Git, VS Code / IntelliJ IDEA
@@ -28,10 +29,10 @@ Each program here is written to experiment with different logic approaches, perf
 
 | Difficulty | Tested Problems |
 |-------------|-----------------|
-| Easy        | 172 ✅           |
-| Medium      | 24 ✅            |
+| Easy        | 173 ✅           |
+| Medium      | 25 ✅            |
 | Hard        | 02 ✅            |
-| **Total**   | 198 ✅           |
+| **Total**   | 200 ✅           |
 
 *(I’ll keep updating this table as I test more DSA solutions.)*
 
